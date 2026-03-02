@@ -1,4 +1,4 @@
-"""Shared state variables for the chatbanking application."""
+"""Constant variables for the chatbanking application."""
 
 balance = 10000
 pin = "1234"
