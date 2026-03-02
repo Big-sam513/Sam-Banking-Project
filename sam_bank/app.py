@@ -1,4 +1,4 @@
-"""Application entrypoint and user interaction loop."""
+"""Application entrypoint"""
 from . import banking
 from . import balance
 from . import transfer
@@ -32,7 +32,7 @@ def main():
             data.user()
         elif choice == "F":
             balance.social()
-        # other options can be added later
+        
 
         replay = input("Did you wish to perform a new operation? (y/n): ").lower()
         if replay != "y":
